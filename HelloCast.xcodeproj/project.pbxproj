@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C83870F25C32D3500C3490F /* HelloCastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83870E25C32D3500C3490F /* HelloCastApp.swift */; };
+		2C83871125C32D3500C3490F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83871025C32D3500C3490F /* ContentView.swift */; };
+		2C83871325C32D3500C3490F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C83871225C32D3500C3490F /* Assets.xcassets */; };
+		2C83871625C32D3500C3490F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C83871525C32D3500C3490F /* Preview Assets.xcassets */; };
+		2C83871825C32D3500C3490F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83871725C32D3500C3490F /* Persistence.swift */; };
+		2C83871B25C32D3500C3490F /* HelloCast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C83871925C32D3500C3490F /* HelloCast.xcdatamodeld */; };
+		2C83872625C32D3500C3490F /* HelloCastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83872525C32D3500C3490F /* HelloCastTests.swift */; };
+		2C83873125C32D3500C3490F /* HelloCastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83873025C32D3500C3490F /* HelloCastUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C83872225C32D3500C3490F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C83870325C32D3500C3490F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C83870A25C32D3500C3490F;
+			remoteInfo = HelloCast;
+		};
+		2C83872D25C32D3500C3490F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C83870325C32D3500C3490F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C83870A25C32D3500C3490F;
+			remoteInfo = HelloCast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C83870B25C32D3500C3490F /* HelloCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C83870E25C32D3500C3490F /* HelloCastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCastApp.swift; sourceTree = "<group>"; };
+		2C83871025C32D3500C3490F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C83871225C32D3500C3490F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C83871525C32D3500C3490F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C83871725C32D3500C3490F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2C83871A25C32D3500C3490F /* HelloCast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloCast.xcdatamodel; sourceTree = "<group>"; };
+		2C83871C25C32D3500C3490F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C83872125C32D3500C3490F /* HelloCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C83872525C32D3500C3490F /* HelloCastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCastTests.swift; sourceTree = "<group>"; };
+		2C83872725C32D3500C3490F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C83872C25C32D3500C3490F /* HelloCastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C83873025C32D3500C3490F /* HelloCastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCastUITests.swift; sourceTree = "<group>"; };
+		2C83873225C32D3500C3490F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C83870825C32D3500C3490F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C83871E25C32D3500C3490F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C83872925C32D3500C3490F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C83870225C32D3500C3490F = {
+			isa = PBXGroup;
+			children = (
+				2C83870D25C32D3500C3490F /* HelloCast */,
+				2C83872425C32D3500C3490F /* HelloCastTests */,
+				2C83872F25C32D3500C3490F /* HelloCastUITests */,
+				2C83870C25C32D3500C3490F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C83870C25C32D3500C3490F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C83870B25C32D3500C3490F /* HelloCast.app */,
+				2C83872125C32D3500C3490F /* HelloCastTests.xctest */,
+				2C83872C25C32D3500C3490F /* HelloCastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C83870D25C32D3500C3490F /* HelloCast */ = {
+			isa = PBXGroup;
+			children = (
+				2C83870E25C32D3500C3490F /* HelloCastApp.swift */,
+				2C83871025C32D3500C3490F /* ContentView.swift */,
+				2C83871225C32D3500C3490F /* Assets.xcassets */,
+				2C83871725C32D3500C3490F /* Persistence.swift */,
+				2C83871C25C32D3500C3490F /* Info.plist */,
+				2C83871925C32D3500C3490F /* HelloCast.xcdatamodeld */,
+				2C83871425C32D3500C3490F /* Preview Content */,
+			);
+			path = HelloCast;
+			sourceTree = "<group>";
+		};
+		2C83871425C32D3500C3490F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C83871525C32D3500C3490F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C83872425C32D3500C3490F /* HelloCastTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C83872525C32D3500C3490F /* HelloCastTests.swift */,
+				2C83872725C32D3500C3490F /* Info.plist */,
+			);
+			path = HelloCastTests;
+			sourceTree = "<group>";
+		};
+		2C83872F25C32D3500C3490F /* HelloCastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C83873025C32D3500C3490F /* HelloCastUITests.swift */,
+				2C83873225C32D3500C3490F /* Info.plist */,
+			);
+			path = HelloCastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C83870A25C32D3500C3490F /* HelloCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C83873525C32D3500C3490F /* Build configuration list for PBXNativeTarget "HelloCast" */;
+			buildPhases = (
+				2C83870725C32D3500C3490F /* Sources */,
+				2C83870825C32D3500C3490F /* Frameworks */,
+				2C83870925C32D3500C3490F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCast;
+			productName = HelloCast;
+			productReference = 2C83870B25C32D3500C3490F /* HelloCast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C83872025C32D3500C3490F /* HelloCastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C83873825C32D3500C3490F /* Build configuration list for PBXNativeTarget "HelloCastTests" */;
+			buildPhases = (
+				2C83871D25C32D3500C3490F /* Sources */,
+				2C83871E25C32D3500C3490F /* Frameworks */,
+				2C83871F25C32D3500C3490F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C83872325C32D3500C3490F /* PBXTargetDependency */,
+			);
+			name = HelloCastTests;
+			productName = HelloCastTests;
+			productReference = 2C83872125C32D3500C3490F /* HelloCastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C83872B25C32D3500C3490F /* HelloCastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C83873B25C32D3500C3490F /* Build configuration list for PBXNativeTarget "HelloCastUITests" */;
+			buildPhases = (
+				2C83872825C32D3500C3490F /* Sources */,
+				2C83872925C32D3500C3490F /* Frameworks */,
+				2C83872A25C32D3500C3490F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C83872E25C32D3500C3490F /* PBXTargetDependency */,
+			);
+			name = HelloCastUITests;
+			productName = HelloCastUITests;
+			productReference = 2C83872C25C32D3500C3490F /* HelloCastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C83870325C32D3500C3490F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					2C83870A25C32D3500C3490F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					2C83872025C32D3500C3490F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2C83870A25C32D3500C3490F;
+					};
+					2C83872B25C32D3500C3490F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2C83870A25C32D3500C3490F;
+					};
+				};
+			};
+			buildConfigurationList = 2C83870625C32D3500C3490F /* Build configuration list for PBXProject "HelloCast" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C83870225C32D3500C3490F;
+			productRefGroup = 2C83870C25C32D3500C3490F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C83870A25C32D3500C3490F /* HelloCast */,
+				2C83872025C32D3500C3490F /* HelloCastTests */,
+				2C83872B25C32D3500C3490F /* HelloCastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C83870925C32D3500C3490F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C83871625C32D3500C3490F /* Preview Assets.xcassets in Resources */,
+				2C83871325C32D3500C3490F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C83871F25C32D3500C3490F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C83872A25C32D3500C3490F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C83870725C32D3500C3490F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C83871825C32D3500C3490F /* Persistence.swift in Sources */,
+				2C83871B25C32D3500C3490F /* HelloCast.xcdatamodeld in Sources */,
+				2C83871125C32D3500C3490F /* ContentView.swift in Sources */,
+				2C83870F25C32D3500C3490F /* HelloCastApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C83871D25C32D3500C3490F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C83872625C32D3500C3490F /* HelloCastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C83872825C32D3500C3490F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C83873125C32D3500C3490F /* HelloCastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C83872325C32D3500C3490F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C83870A25C32D3500C3490F /* HelloCast */;
+			targetProxy = 2C83872225C32D3500C3490F /* PBXContainerItemProxy */;
+		};
+		2C83872E25C32D3500C3490F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C83870A25C32D3500C3490F /* HelloCast */;
+			targetProxy = 2C83872D25C32D3500C3490F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C83873325C32D3500C3490F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C83873425C32D3500C3490F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C83873625C32D3500C3490F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloCast/Preview Content\"";
+				DEVELOPMENT_TEAM = B2UAA5QFBD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HelloCast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.johnyoat.HelloCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C83873725C32D3500C3490F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloCast/Preview Content\"";
+				DEVELOPMENT_TEAM = B2UAA5QFBD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HelloCast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.johnyoat.HelloCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C83873925C32D3500C3490F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2UAA5QFBD;
+				INFOPLIST_FILE = HelloCastTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.johnyoat.HelloCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloCast.app/HelloCast";
+			};
+			name = Debug;
+		};
+		2C83873A25C32D3500C3490F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2UAA5QFBD;
+				INFOPLIST_FILE = HelloCastTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.johnyoat.HelloCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloCast.app/HelloCast";
+			};
+			name = Release;
+		};
+		2C83873C25C32D3500C3490F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2UAA5QFBD;
+				INFOPLIST_FILE = HelloCastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.johnyoat.HelloCastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloCast;
+			};
+			name = Debug;
+		};
+		2C83873D25C32D3500C3490F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2UAA5QFBD;
+				INFOPLIST_FILE = HelloCastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.johnyoat.HelloCastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloCast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C83870625C32D3500C3490F /* Build configuration list for PBXProject "HelloCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C83873325C32D3500C3490F /* Debug */,
+				2C83873425C32D3500C3490F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C83873525C32D3500C3490F /* Build configuration list for PBXNativeTarget "HelloCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C83873625C32D3500C3490F /* Debug */,
+				2C83873725C32D3500C3490F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C83873825C32D3500C3490F /* Build configuration list for PBXNativeTarget "HelloCastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C83873925C32D3500C3490F /* Debug */,
+				2C83873A25C32D3500C3490F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C83873B25C32D3500C3490F /* Build configuration list for PBXNativeTarget "HelloCastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C83873C25C32D3500C3490F /* Debug */,
+				2C83873D25C32D3500C3490F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C83871925C32D3500C3490F /* HelloCast.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C83871A25C32D3500C3490F /* HelloCast.xcdatamodel */,
+			);
+			currentVersion = 2C83871A25C32D3500C3490F /* HelloCast.xcdatamodel */;
+			path = HelloCast.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C83870325C32D3500C3490F /* Project object */;
+}
