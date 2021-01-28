@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B38156A0832E6A559487D4B /* Pods_HelloCastTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E631EADCEE03F57B32955259 /* Pods_HelloCastTests.framework */; };
 		2C83870F25C32D3500C3490F /* HelloCastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83870E25C32D3500C3490F /* HelloCastApp.swift */; };
 		2C83871125C32D3500C3490F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83871025C32D3500C3490F /* ContentView.swift */; };
 		2C83871325C32D3500C3490F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C83871225C32D3500C3490F /* Assets.xcassets */; };
@@ -15,6 +16,11 @@
 		2C83871B25C32D3500C3490F /* HelloCast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C83871925C32D3500C3490F /* HelloCast.xcdatamodeld */; };
 		2C83872625C32D3500C3490F /* HelloCastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83872525C32D3500C3490F /* HelloCastTests.swift */; };
 		2C83873125C32D3500C3490F /* HelloCastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83873025C32D3500C3490F /* HelloCastUITests.swift */; };
+		2C83875525C3300300C3490F /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83875425C3300300C3490F /* Episode.swift */; };
+		2C83875A25C3301E00C3490F /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83875925C3301E00C3490F /* Podcast.swift */; };
+		2C83875F25C3303600C3490F /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83875E25C3303600C3490F /* Genre.swift */; };
+		A8176E88A9E83AF179702661 /* Pods_HelloCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA6733100E7097ACA0EB17B /* Pods_HelloCast.framework */; };
+		CBFA527B01062BE0B6C98829 /* Pods_HelloCast_HelloCastUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D79BC1B2AD4C5A29BA0CBE7 /* Pods_HelloCast_HelloCastUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,18 @@
 		2C83872C25C32D3500C3490F /* HelloCastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C83873025C32D3500C3490F /* HelloCastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCastUITests.swift; sourceTree = "<group>"; };
 		2C83873225C32D3500C3490F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C83875425C3300300C3490F /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		2C83875925C3301E00C3490F /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
+		2C83875E25C3303600C3490F /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		8CCAD7825228B0234B229428 /* Pods-HelloCastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCastTests.release.xcconfig"; path = "Target Support Files/Pods-HelloCastTests/Pods-HelloCastTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D79BC1B2AD4C5A29BA0CBE7 /* Pods_HelloCast_HelloCastUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloCast_HelloCastUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B6412F339D4109D8720E9F /* Pods-HelloCast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCast.release.xcconfig"; path = "Target Support Files/Pods-HelloCast/Pods-HelloCast.release.xcconfig"; sourceTree = "<group>"; };
+		ACA6733100E7097ACA0EB17B /* Pods_HelloCast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloCast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB9444FB9059712A1C9A3E4 /* Pods-HelloCast-HelloCastUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCast-HelloCastUITests.release.xcconfig"; path = "Target Support Files/Pods-HelloCast-HelloCastUITests/Pods-HelloCast-HelloCastUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1A7F7F43CB5759AAA4E9D9D /* Pods-HelloCast-HelloCastUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCast-HelloCastUITests.debug.xcconfig"; path = "Target Support Files/Pods-HelloCast-HelloCastUITests/Pods-HelloCast-HelloCastUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4D777E1BB22BA5E5C9A2471 /* Pods-HelloCast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCast.debug.xcconfig"; path = "Target Support Files/Pods-HelloCast/Pods-HelloCast.debug.xcconfig"; sourceTree = "<group>"; };
+		D804BB756A4754A324643B04 /* Pods-HelloCastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCastTests.debug.xcconfig"; path = "Target Support Files/Pods-HelloCastTests/Pods-HelloCastTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E631EADCEE03F57B32955259 /* Pods_HelloCastTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloCastTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8176E88A9E83AF179702661 /* Pods_HelloCast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B38156A0832E6A559487D4B /* Pods_HelloCastTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBFA527B01062BE0B6C98829 /* Pods_HelloCast_HelloCastUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				2C83872425C32D3500C3490F /* HelloCastTests */,
 				2C83872F25C32D3500C3490F /* HelloCastUITests */,
 				2C83870C25C32D3500C3490F /* Products */,
+				C1617A57C706EB41D637A60C /* Pods */,
+				938DBBDCA3A536E4E17DE13F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +122,12 @@
 		2C83870D25C32D3500C3490F /* HelloCast */ = {
 			isa = PBXGroup;
 			children = (
+				2C83876425C337F200C3490F /* Data */,
+				2C83874A25C32F8900C3490F /* Models */,
 				2C83870E25C32D3500C3490F /* HelloCastApp.swift */,
-				2C83871025C32D3500C3490F /* ContentView.swift */,
+				2C83876325C337E000C3490F /* Views */,
 				2C83871225C32D3500C3490F /* Assets.xcassets */,
-				2C83871725C32D3500C3490F /* Persistence.swift */,
 				2C83871C25C32D3500C3490F /* Info.plist */,
-				2C83871925C32D3500C3490F /* HelloCast.xcdatamodeld */,
 				2C83871425C32D3500C3490F /* Preview Content */,
 			);
 			path = HelloCast;
@@ -136,6 +159,56 @@
 			path = HelloCastUITests;
 			sourceTree = "<group>";
 		};
+		2C83874A25C32F8900C3490F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C83875425C3300300C3490F /* Episode.swift */,
+				2C83875925C3301E00C3490F /* Podcast.swift */,
+				2C83875E25C3303600C3490F /* Genre.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C83876325C337E000C3490F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C83871025C32D3500C3490F /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C83876425C337F200C3490F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2C83871725C32D3500C3490F /* Persistence.swift */,
+				2C83871925C32D3500C3490F /* HelloCast.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		938DBBDCA3A536E4E17DE13F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACA6733100E7097ACA0EB17B /* Pods_HelloCast.framework */,
+				9D79BC1B2AD4C5A29BA0CBE7 /* Pods_HelloCast_HelloCastUITests.framework */,
+				E631EADCEE03F57B32955259 /* Pods_HelloCastTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1617A57C706EB41D637A60C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4D777E1BB22BA5E5C9A2471 /* Pods-HelloCast.debug.xcconfig */,
+				A5B6412F339D4109D8720E9F /* Pods-HelloCast.release.xcconfig */,
+				B1A7F7F43CB5759AAA4E9D9D /* Pods-HelloCast-HelloCastUITests.debug.xcconfig */,
+				AFB9444FB9059712A1C9A3E4 /* Pods-HelloCast-HelloCastUITests.release.xcconfig */,
+				D804BB756A4754A324643B04 /* Pods-HelloCastTests.debug.xcconfig */,
+				8CCAD7825228B0234B229428 /* Pods-HelloCastTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C83873525C32D3500C3490F /* Build configuration list for PBXNativeTarget "HelloCast" */;
 			buildPhases = (
+				4879CC459EF20E99FCA16046 /* [CP] Check Pods Manifest.lock */,
 				2C83870725C32D3500C3490F /* Sources */,
 				2C83870825C32D3500C3490F /* Frameworks */,
 				2C83870925C32D3500C3490F /* Resources */,
@@ -160,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C83873825C32D3500C3490F /* Build configuration list for PBXNativeTarget "HelloCastTests" */;
 			buildPhases = (
+				AD28E796BD4462C126F8AD12 /* [CP] Check Pods Manifest.lock */,
 				2C83871D25C32D3500C3490F /* Sources */,
 				2C83871E25C32D3500C3490F /* Frameworks */,
 				2C83871F25C32D3500C3490F /* Resources */,
@@ -178,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C83873B25C32D3500C3490F /* Build configuration list for PBXNativeTarget "HelloCastUITests" */;
 			buildPhases = (
+				1386F32400B5F50C8E33A13E /* [CP] Check Pods Manifest.lock */,
 				2C83872825C32D3500C3490F /* Sources */,
 				2C83872925C32D3500C3490F /* Frameworks */,
 				2C83872A25C32D3500C3490F /* Resources */,
@@ -260,6 +336,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1386F32400B5F50C8E33A13E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloCast-HelloCastUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4879CC459EF20E99FCA16046 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloCast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD28E796BD4462C126F8AD12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloCastTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C83870725C32D3500C3490F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,8 +412,11 @@
 			files = (
 				2C83871825C32D3500C3490F /* Persistence.swift in Sources */,
 				2C83871B25C32D3500C3490F /* HelloCast.xcdatamodeld in Sources */,
+				2C83875A25C3301E00C3490F /* Podcast.swift in Sources */,
 				2C83871125C32D3500C3490F /* ContentView.swift in Sources */,
+				2C83875525C3300300C3490F /* Episode.swift in Sources */,
 				2C83870F25C32D3500C3490F /* HelloCastApp.swift in Sources */,
+				2C83875F25C3303600C3490F /* Genre.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +570,7 @@
 		};
 		2C83873625C32D3500C3490F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D777E1BB22BA5E5C9A2471 /* Pods-HelloCast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +593,7 @@
 		};
 		2C83873725C32D3500C3490F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B6412F339D4109D8720E9F /* Pods-HelloCast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +616,7 @@
 		};
 		2C83873925C32D3500C3490F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D804BB756A4754A324643B04 /* Pods-HelloCastTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +639,7 @@
 		};
 		2C83873A25C32D3500C3490F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CCAD7825228B0234B229428 /* Pods-HelloCastTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +662,7 @@
 		};
 		2C83873C25C32D3500C3490F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1A7F7F43CB5759AAA4E9D9D /* Pods-HelloCast-HelloCastUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +683,7 @@
 		};
 		2C83873D25C32D3500C3490F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB9444FB9059712A1C9A3E4 /* Pods-HelloCast-HelloCastUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_HelloCast_HelloCastUITests {
+  umbrella header "Pods-HelloCast-HelloCastUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

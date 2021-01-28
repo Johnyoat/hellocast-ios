@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AF329B1875AB98C82D7A0DE84A16DD8 /* Pods-HelloCastTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26CAA17AC7281A8FCCA107B69FF55AAC /* Pods-HelloCastTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BC1E8DA8D8D62348A8DED79AF26390B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1D059FD0BF88FC61D56ED8ED75942877 /* Pods-HelloCast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF153B616EC3D4164EDB94787591A5 /* Pods-HelloCast-dummy.m */; };
+		3B05E71049ED6E9921D96929326EB0C8 /* Pods-HelloCast-HelloCastUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 326DAC34321695350D82AE7EB30D1904 /* Pods-HelloCast-HelloCastUITests-dummy.m */; };
+		5266F5B9D87B1D755728FE666C06E490 /* Pods-HelloCast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A254B18687C9EEEB418C9A20E639021E /* Pods-HelloCast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C2F9A276FAB5EEB550CD58CA7447428 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8F80AFB8BF0FCE121801B1C049A62900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BD20B220C01AF0E25FECF4F1F58EA5AE /* Pods-HelloCast-HelloCastUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F55D8514A6B8F3B20E030255E639C7 /* Pods-HelloCast-HelloCastUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F48B284D80BE3F2901BE6FA0E0C48C58 /* Pods-HelloCastTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9375826720C1A7658DC31BB5C1EE7135 /* Pods-HelloCastTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AC87900EE2F83B4393C21AA7BAEF476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A70418EB5913DC581AE4CC980E6395A0;
+			remoteInfo = "Pods-HelloCast";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C8103FD8D68D2BC20706D04230BBD9 /* Pods_HelloCastTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloCastTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D842B7E38EEB2D585C47135F1DBC3AF /* Pods-HelloCastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloCastTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B8DED5C8319515543D826C93B26EFB3 /* Pods-HelloCast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HelloCast.modulemap"; sourceTree = "<group>"; };
+		2516F41F985ADED9C29D43058D46E9F7 /* Pods_HelloCast_HelloCastUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloCast_HelloCastUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CAA17AC7281A8FCCA107B69FF55AAC /* Pods-HelloCastTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloCastTests-umbrella.h"; sourceTree = "<group>"; };
+		27AF3023A68C2F96A0513E2C808BFAB8 /* Pods-HelloCast-HelloCastUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HelloCast-HelloCastUITests.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		326DAC34321695350D82AE7EB30D1904 /* Pods-HelloCast-HelloCastUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloCast-HelloCastUITests-dummy.m"; sourceTree = "<group>"; };
+		34A49CE754500A1B81D483B909AB46A2 /* Pods-HelloCast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloCast.release.xcconfig"; sourceTree = "<group>"; };
+		3AAB281890C7869041FF703482339ACA /* Pods_HelloCast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloCast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFF153B616EC3D4164EDB94787591A5 /* Pods-HelloCast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloCast-dummy.m"; sourceTree = "<group>"; };
+		401CE37A7C88840B12ECEC7300981022 /* Pods-HelloCast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloCast-Info.plist"; sourceTree = "<group>"; };
+		47D3A98004590E6F9D11EAF8E88C10F5 /* Pods-HelloCastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloCastTests.release.xcconfig"; sourceTree = "<group>"; };
+		5BA81BB4F8492065643B35DC5B37CDA0 /* Pods-HelloCastTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloCastTests-Info.plist"; sourceTree = "<group>"; };
+		5E43A7C5349917ECD4D790862C0CED1D /* Pods-HelloCast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloCast.debug.xcconfig"; sourceTree = "<group>"; };
+		849A7EE36564DAA037A982C5C2A67F45 /* Pods-HelloCastTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HelloCastTests.modulemap"; sourceTree = "<group>"; };
+		8C35E2FB92824EE55695D2864F4F084E /* Pods-HelloCast-HelloCastUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloCast-HelloCastUITests-Info.plist"; sourceTree = "<group>"; };
+		9375826720C1A7658DC31BB5C1EE7135 /* Pods-HelloCastTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloCastTests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A254B18687C9EEEB418C9A20E639021E /* Pods-HelloCast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloCast-umbrella.h"; sourceTree = "<group>"; };
+		A586EBC4BD8A809125DEEBF287B26D9F /* Pods-HelloCast-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloCast-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AAD99A412B4327C3DFBC20FC7358AE32 /* Pods-HelloCastTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloCastTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB1103CC8EDC69DAF653577C75ED9A9D /* Pods-HelloCast-HelloCastUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloCast-HelloCastUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD1F3565FAB04D286A1B04F0AB1F795E /* Pods-HelloCast-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloCast-acknowledgements.plist"; sourceTree = "<group>"; };
+		B16975525A2C58EA8B94C51AE1FE110E /* Pods-HelloCast-HelloCastUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloCast-HelloCastUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B881797CBA006A408D75AC763EECE8A8 /* Pods-HelloCast-HelloCastUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloCast-HelloCastUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B94F9AE40BD87953F214B68CCEC51330 /* Pods-HelloCast-HelloCastUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloCast-HelloCastUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6F55D8514A6B8F3B20E030255E639C7 /* Pods-HelloCast-HelloCastUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloCast-HelloCastUITests-umbrella.h"; sourceTree = "<group>"; };
+		DC668FFA5697CE2122DF3DC72549F6B2 /* Pods-HelloCastTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloCastTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14D2CC2C1D6ED99E4AA0844D9FE11BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC1E8DA8D8D62348A8DED79AF26390B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0ABDA63FE48BF37D8B6614948CB674F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F80AFB8BF0FCE121801B1C049A62900 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0205CBC3948832CAE06CEED3984091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2F9A276FAB5EEB550CD58CA7447428 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75622FE29FD2D6C54824E09EA0CB37D6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD196C9F3A9A102C3C468514FEA44AD9 /* Pods-HelloCast */,
+				E585A6D488F8FA0247333F4F1364F050 /* Pods-HelloCast-HelloCastUITests */,
+				9FF6ADAEB87901179913AF4385443DBE /* Pods-HelloCastTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9FF6ADAEB87901179913AF4385443DBE /* Pods-HelloCastTests */ = {
+			isa = PBXGroup;
+			children = (
+				849A7EE36564DAA037A982C5C2A67F45 /* Pods-HelloCastTests.modulemap */,
+				DC668FFA5697CE2122DF3DC72549F6B2 /* Pods-HelloCastTests-acknowledgements.markdown */,
+				AAD99A412B4327C3DFBC20FC7358AE32 /* Pods-HelloCastTests-acknowledgements.plist */,
+				9375826720C1A7658DC31BB5C1EE7135 /* Pods-HelloCastTests-dummy.m */,
+				5BA81BB4F8492065643B35DC5B37CDA0 /* Pods-HelloCastTests-Info.plist */,
+				26CAA17AC7281A8FCCA107B69FF55AAC /* Pods-HelloCastTests-umbrella.h */,
+				0D842B7E38EEB2D585C47135F1DBC3AF /* Pods-HelloCastTests.debug.xcconfig */,
+				47D3A98004590E6F9D11EAF8E88C10F5 /* Pods-HelloCastTests.release.xcconfig */,
+			);
+			name = "Pods-HelloCastTests";
+			path = "Target Support Files/Pods-HelloCastTests";
+			sourceTree = "<group>";
+		};
+		BD196C9F3A9A102C3C468514FEA44AD9 /* Pods-HelloCast */ = {
+			isa = PBXGroup;
+			children = (
+				1B8DED5C8319515543D826C93B26EFB3 /* Pods-HelloCast.modulemap */,
+				A586EBC4BD8A809125DEEBF287B26D9F /* Pods-HelloCast-acknowledgements.markdown */,
+				AD1F3565FAB04D286A1B04F0AB1F795E /* Pods-HelloCast-acknowledgements.plist */,
+				3FFF153B616EC3D4164EDB94787591A5 /* Pods-HelloCast-dummy.m */,
+				401CE37A7C88840B12ECEC7300981022 /* Pods-HelloCast-Info.plist */,
+				A254B18687C9EEEB418C9A20E639021E /* Pods-HelloCast-umbrella.h */,
+				5E43A7C5349917ECD4D790862C0CED1D /* Pods-HelloCast.debug.xcconfig */,
+				34A49CE754500A1B81D483B909AB46A2 /* Pods-HelloCast.release.xcconfig */,
+			);
+			name = "Pods-HelloCast";
+			path = "Target Support Files/Pods-HelloCast";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D4B2AAF3AD3CAE1C9206BAFBC0704755 /* Products */,
+				75622FE29FD2D6C54824E09EA0CB37D6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4B2AAF3AD3CAE1C9206BAFBC0704755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AAB281890C7869041FF703482339ACA /* Pods_HelloCast.framework */,
+				2516F41F985ADED9C29D43058D46E9F7 /* Pods_HelloCast_HelloCastUITests.framework */,
+				07C8103FD8D68D2BC20706D04230BBD9 /* Pods_HelloCastTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E585A6D488F8FA0247333F4F1364F050 /* Pods-HelloCast-HelloCastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27AF3023A68C2F96A0513E2C808BFAB8 /* Pods-HelloCast-HelloCastUITests.modulemap */,
+				B94F9AE40BD87953F214B68CCEC51330 /* Pods-HelloCast-HelloCastUITests-acknowledgements.markdown */,
+				AB1103CC8EDC69DAF653577C75ED9A9D /* Pods-HelloCast-HelloCastUITests-acknowledgements.plist */,
+				326DAC34321695350D82AE7EB30D1904 /* Pods-HelloCast-HelloCastUITests-dummy.m */,
+				8C35E2FB92824EE55695D2864F4F084E /* Pods-HelloCast-HelloCastUITests-Info.plist */,
+				C6F55D8514A6B8F3B20E030255E639C7 /* Pods-HelloCast-HelloCastUITests-umbrella.h */,
+				B16975525A2C58EA8B94C51AE1FE110E /* Pods-HelloCast-HelloCastUITests.debug.xcconfig */,
+				B881797CBA006A408D75AC763EECE8A8 /* Pods-HelloCast-HelloCastUITests.release.xcconfig */,
+			);
+			name = "Pods-HelloCast-HelloCastUITests";
+			path = "Target Support Files/Pods-HelloCast-HelloCastUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		178CABF62CDF33659222124C409EDBD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5266F5B9D87B1D755728FE666C06E490 /* Pods-HelloCast-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408A223168770D2FF997C08663D0BE61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD20B220C01AF0E25FECF4F1F58EA5AE /* Pods-HelloCast-HelloCastUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7E5D30A8CC68D5E45992286B886199 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF329B1875AB98C82D7A0DE84A16DD8 /* Pods-HelloCastTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		786FDF1E8192765292069C3A7E15B59C /* Pods-HelloCastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE7C631AD23B1513565F5629D585F98 /* Build configuration list for PBXNativeTarget "Pods-HelloCastTests" */;
+			buildPhases = (
+				9F7E5D30A8CC68D5E45992286B886199 /* Headers */,
+				28E96D99A4021CB66178C7239250539D /* Sources */,
+				14D2CC2C1D6ED99E4AA0844D9FE11BF3 /* Frameworks */,
+				D2A778FF8FBA9CEEDBDE4232A8C46449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				912CF30F0F3780528D6E871016B51EDE /* PBXTargetDependency */,
+			);
+			name = "Pods-HelloCastTests";
+			productName = "Pods-HelloCastTests";
+			productReference = 07C8103FD8D68D2BC20706D04230BBD9 /* Pods_HelloCastTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A70418EB5913DC581AE4CC980E6395A0 /* Pods-HelloCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992403303F5AC7C29B4C95BCFDFDA365 /* Build configuration list for PBXNativeTarget "Pods-HelloCast" */;
+			buildPhases = (
+				178CABF62CDF33659222124C409EDBD0 /* Headers */,
+				55496B474226601BA5F746FCD10CBDC3 /* Sources */,
+				CF0205CBC3948832CAE06CEED3984091 /* Frameworks */,
+				0F8F10AFC1D2E4A90019B831D2B081C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HelloCast";
+			productName = "Pods-HelloCast";
+			productReference = 3AAB281890C7869041FF703482339ACA /* Pods_HelloCast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADBD881903AA69D8BF2F17A325981BDF /* Pods-HelloCast-HelloCastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5900E2D984F21E92009C1CFA08A55E9 /* Build configuration list for PBXNativeTarget "Pods-HelloCast-HelloCastUITests" */;
+			buildPhases = (
+				408A223168770D2FF997C08663D0BE61 /* Headers */,
+				7DFD8F81B901B8AF0D0068CD805EDDF3 /* Sources */,
+				A0ABDA63FE48BF37D8B6614948CB674F /* Frameworks */,
+				2C998387BBE0196920EBC75077EF6E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HelloCast-HelloCastUITests";
+			productName = "Pods-HelloCast-HelloCastUITests";
+			productReference = 2516F41F985ADED9C29D43058D46E9F7 /* Pods_HelloCast_HelloCastUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1230;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D4B2AAF3AD3CAE1C9206BAFBC0704755 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A70418EB5913DC581AE4CC980E6395A0 /* Pods-HelloCast */,
+				ADBD881903AA69D8BF2F17A325981BDF /* Pods-HelloCast-HelloCastUITests */,
+				786FDF1E8192765292069C3A7E15B59C /* Pods-HelloCastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F8F10AFC1D2E4A90019B831D2B081C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C998387BBE0196920EBC75077EF6E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A778FF8FBA9CEEDBDE4232A8C46449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28E96D99A4021CB66178C7239250539D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48B284D80BE3F2901BE6FA0E0C48C58 /* Pods-HelloCastTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55496B474226601BA5F746FCD10CBDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D059FD0BF88FC61D56ED8ED75942877 /* Pods-HelloCast-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFD8F81B901B8AF0D0068CD805EDDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B05E71049ED6E9921D96929326EB0C8 /* Pods-HelloCast-HelloCastUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		912CF30F0F3780528D6E871016B51EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HelloCast";
+			target = A70418EB5913DC581AE4CC980E6395A0 /* Pods-HelloCast */;
+			targetProxy = 6AC87900EE2F83B4393C21AA7BAEF476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CB462C9E648BF5EA64D79D4F128D7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16975525A2C58EA8B94C51AE1FE110E /* Pods-HelloCast-HelloCastUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloCast-HelloCastUITests/Pods-HelloCast-HelloCastUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloCast-HelloCastUITests/Pods-HelloCast-HelloCastUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A000E3D466F0FEF0EACD95C900CFB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D3A98004590E6F9D11EAF8E88C10F5 /* Pods-HelloCastTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloCastTests/Pods-HelloCastTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloCastTests/Pods-HelloCastTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9BD2420F5B200DF0A9AAFC0D02B4C66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A49CE754500A1B81D483B909AB46A2 /* Pods-HelloCast.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloCast/Pods-HelloCast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloCast/Pods-HelloCast.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4BBF6C6F3A0CF723CDF5F08729894F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D842B7E38EEB2D585C47135F1DBC3AF /* Pods-HelloCastTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloCastTests/Pods-HelloCastTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloCastTests/Pods-HelloCastTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B30571EC399B7F49CDCCEFC50301F933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E43A7C5349917ECD4D790862C0CED1D /* Pods-HelloCast.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloCast/Pods-HelloCast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloCast/Pods-HelloCast.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C96521E6E068C951AD176A977DD29773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B881797CBA006A408D75AC763EECE8A8 /* Pods-HelloCast-HelloCastUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloCast-HelloCastUITests/Pods-HelloCast-HelloCastUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloCast-HelloCastUITests/Pods-HelloCast-HelloCastUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992403303F5AC7C29B4C95BCFDFDA365 /* Build configuration list for PBXNativeTarget "Pods-HelloCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30571EC399B7F49CDCCEFC50301F933 /* Debug */,
+				9BD2420F5B200DF0A9AAFC0D02B4C66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5900E2D984F21E92009C1CFA08A55E9 /* Build configuration list for PBXNativeTarget "Pods-HelloCast-HelloCastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB462C9E648BF5EA64D79D4F128D7EA /* Debug */,
+				C96521E6E068C951AD176A977DD29773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE7C631AD23B1513565F5629D585F98 /* Build configuration list for PBXNativeTarget "Pods-HelloCastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BBF6C6F3A0CF723CDF5F08729894F0 /* Debug */,
+				5A000E3D466F0FEF0EACD95C900CFB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
