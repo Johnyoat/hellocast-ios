@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2B38156A0832E6A559487D4B /* Pods_HelloCastTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E631EADCEE03F57B32955259 /* Pods_HelloCastTests.framework */; };
-		2C83870F25C32D3500C3490F /* HelloCastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83870E25C32D3500C3490F /* HelloCastApp.swift */; };
 		2C83871125C32D3500C3490F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83871025C32D3500C3490F /* ContentView.swift */; };
 		2C83871325C32D3500C3490F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C83871225C32D3500C3490F /* Assets.xcassets */; };
 		2C83871625C32D3500C3490F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C83871525C32D3500C3490F /* Preview Assets.xcassets */; };
@@ -19,6 +18,10 @@
 		2C83875525C3300300C3490F /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83875425C3300300C3490F /* Episode.swift */; };
 		2C83875A25C3301E00C3490F /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83875925C3301E00C3490F /* Podcast.swift */; };
 		2C83875F25C3303600C3490F /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83875E25C3303600C3490F /* Genre.swift */; };
+		2C83DEC425C8A06700573A3B /* HelloCastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83DEC325C8A06700573A3B /* HelloCastApp.swift */; };
+		2C83DF0625C8A29A00573A3B /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83DF0525C8A29A00573A3B /* ExploreView.swift */; };
+		2C83DF0B25C8A2B800573A3B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83DF0A25C8A2B800573A3B /* ProfileView.swift */; };
+		2C83DF1025C8A2E100573A3B /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83DF0F25C8A2E100573A3B /* LibraryView.swift */; };
 		A8176E88A9E83AF179702661 /* Pods_HelloCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA6733100E7097ACA0EB17B /* Pods_HelloCast.framework */; };
 		CBFA527B01062BE0B6C98829 /* Pods_HelloCast_HelloCastUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D79BC1B2AD4C5A29BA0CBE7 /* Pods_HelloCast_HelloCastUITests.framework */; };
 /* End PBXBuildFile section */
@@ -42,7 +45,6 @@
 
 /* Begin PBXFileReference section */
 		2C83870B25C32D3500C3490F /* HelloCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C83870E25C32D3500C3490F /* HelloCastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCastApp.swift; sourceTree = "<group>"; };
 		2C83871025C32D3500C3490F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C83871225C32D3500C3490F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C83871525C32D3500C3490F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -58,6 +60,10 @@
 		2C83875425C3300300C3490F /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		2C83875925C3301E00C3490F /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
 		2C83875E25C3303600C3490F /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		2C83DEC325C8A06700573A3B /* HelloCastApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloCastApp.swift; sourceTree = "<group>"; };
+		2C83DF0525C8A29A00573A3B /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		2C83DF0A25C8A2B800573A3B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2C83DF0F25C8A2E100573A3B /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		8CCAD7825228B0234B229428 /* Pods-HelloCastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCastTests.release.xcconfig"; path = "Target Support Files/Pods-HelloCastTests/Pods-HelloCastTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D79BC1B2AD4C5A29BA0CBE7 /* Pods_HelloCast_HelloCastUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloCast_HelloCastUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B6412F339D4109D8720E9F /* Pods-HelloCast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCast.release.xcconfig"; path = "Target Support Files/Pods-HelloCast/Pods-HelloCast.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,9 +128,9 @@
 		2C83870D25C32D3500C3490F /* HelloCast */ = {
 			isa = PBXGroup;
 			children = (
+				2C83DEC325C8A06700573A3B /* HelloCastApp.swift */,
 				2C83876425C337F200C3490F /* Data */,
 				2C83874A25C32F8900C3490F /* Models */,
-				2C83870E25C32D3500C3490F /* HelloCastApp.swift */,
 				2C83876325C337E000C3490F /* Views */,
 				2C83871225C32D3500C3490F /* Assets.xcassets */,
 				2C83871C25C32D3500C3490F /* Info.plist */,
@@ -173,6 +179,9 @@
 			isa = PBXGroup;
 			children = (
 				2C83871025C32D3500C3490F /* ContentView.swift */,
+				2C83DF0525C8A29A00573A3B /* ExploreView.swift */,
+				2C83DF0A25C8A2B800573A3B /* ProfileView.swift */,
+				2C83DF0F25C8A2E100573A3B /* LibraryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -411,11 +420,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C83871825C32D3500C3490F /* Persistence.swift in Sources */,
+				2C83DF0B25C8A2B800573A3B /* ProfileView.swift in Sources */,
+				2C83DEC425C8A06700573A3B /* HelloCastApp.swift in Sources */,
 				2C83871B25C32D3500C3490F /* HelloCast.xcdatamodeld in Sources */,
 				2C83875A25C3301E00C3490F /* Podcast.swift in Sources */,
 				2C83871125C32D3500C3490F /* ContentView.swift in Sources */,
 				2C83875525C3300300C3490F /* Episode.swift in Sources */,
-				2C83870F25C32D3500C3490F /* HelloCastApp.swift in Sources */,
+				2C83DF0625C8A29A00573A3B /* ExploreView.swift in Sources */,
+				2C83DF1025C8A2E100573A3B /* LibraryView.swift in Sources */,
 				2C83875F25C3303600C3490F /* Genre.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,7 +596,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.johnyoat.HelloCast;
+				PRODUCT_BUNDLE_IDENTIFIER = me.johnyoat.helloCast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -607,7 +619,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.johnyoat.HelloCast;
+				PRODUCT_BUNDLE_IDENTIFIER = me.johnyoat.helloCast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
